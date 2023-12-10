@@ -3,14 +3,14 @@
 Welcome to my Android Portfolio repository! Here you'll find a collection of projects developed during my studies in cross-platform applications with Java and Android Studio. Each project represents a step in my learning journey, reflecting my growth as a mobile app developer.
 
 ## 🚀 Featured Projects
-### Project 1: [Project Name]
-Brief project description, technologies used, and any challenges overcome.
+### Project 1: Enemy Manager App 🦹‍♂️
+Develop an Android application to manage a list of enemies.
 
-### Project 2: [Project Name]
-Another brief description and highlights of the second project.
+### Project 2: Event Agenda App 📅
+Create an Android app for organizing events.
 
-### Project 3: [Project Name]
-And so on...
+### Project 3: Cake Eating Contest 🍰
+Develop an Android application with a single screen for a cake-eating contest registration form.
 
 ## 📁 Repository Structure
 Each project is organized in its own folder for easy navigation.
@@ -21,7 +21,7 @@ I'd love to hear your suggestions and feedback! If you spot areas for improvemen
 
 ## 📬 Contact
 - [LinkedIn](https://www.linkedin.com/in/quimromero/)
-- Email: quimromero22@gmail.com
+- quimromero22@gmail.com
 
 Thank you for visiting my Android Portfolio! I hope you enjoy exploring my projects as much as I enjoyed developing them.
 
