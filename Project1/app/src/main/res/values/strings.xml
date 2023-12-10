@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">joaquin</string>
+
+    <string name="nombre">Nombre:</string>
+    <string name="edad">Edad:</string>
+    <string name="ofensa">Ofensa:</string>
+    <string name="descripcion_ofensa">Descripcion ofensa</string>
+    <string name="anadir">Añadir</string>
+    <string name="vacio">Vacio</string>
+    <string name="sin_enemigos">Sin Enemigos</string>
+</resources>

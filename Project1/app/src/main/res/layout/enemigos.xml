@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/verNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/black"
+        android:text="@string/nombre"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/nombreTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/black"
+        android:hint="@string/vacio"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/verEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/black"
+        android:text="@string/edad"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/edadTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/black"
+        android:hint="@string/vacio"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/verOfensa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/black"
+        android:text="@string/ofensa"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/ofensaTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/black"
+        android:hint="@string/vacio"
+        android:textSize="25sp" />
+
+</LinearLayout>

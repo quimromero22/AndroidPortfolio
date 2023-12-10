@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Eventos</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <string name="añadirEvento">Añadir Evento</string>
+    <string name="añadirLugar">Añadir Lugar</string>
+
+    <string name="fecha">Seleccione la Fecha</string>
+    <string name="hora">Seleccione la Hora</string>
+
+    <string name="enunciado">Indica el evento que desea guardar</string>
+    <string name="datehourEvento">Fecha y hora del Evento</string>
+    <string name="lugarEvento">Lugar del Evento</string>
+    <string name="nombreEvento">Nombre del evento</string>
+
+</resources>

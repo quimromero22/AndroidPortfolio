@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:text="Concurso"
+        android:textSize="48sp" />
+
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_margin="5dp"
+        app:srcCompat="@drawable/tarta"
+        android:contentDescription="tarta" />
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_gravity="left"
+        android:layout_margin="15dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:hint="Nombre" />
+
+    <EditText
+        android:id="@+id/apellido"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_gravity="right"
+        android:layout_margin="15dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:hint="Apellido" />
+
+    <EditText
+        android:id="@+id/edad"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_margin="15dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:hint="Edad" />
+
+    <EditText
+        android:id="@+id/genero"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_gravity="right"
+        android:layout_margin="15dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:hint="Genero" />
+
+    <TextView
+        android:id="@+id/pregunta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:layout_margin="15dp"
+        android:gravity="left"
+        android:text="¿Has participado en otro concurso?"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/preguntaSI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="6"
+        android:layout_column="0"
+        android:ems="10"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:hint="En que concurso has participado?" />
+
+    <Button
+        android:id="@+id/aceptar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="7"
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:background="#000000"
+        android:hapticFeedbackEnabled="false"
+        android:onClick="validar"
+        android:text="ACEPTAR"
+        android:textSize="28sp" />
+
+    <RadioGroup
+        android:id="@+id/sino"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="5"
+        android:layout_column="0">
+
+        <RadioButton
+            android:id="@+id/opcionSI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:layout_gravity="left"
+            android:layout_margin="8dp"
+            android:onClick="verPregunta"
+            android:paddingRight="90dp"
+            android:text="SI" />
+
+        <RadioButton
+            android:id="@+id/opcionNO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:layout_gravity="right"
+            android:onClick="verPregunta"
+            android:checked="true"
+            android:layout_margin="8dp"
+            android:paddingRight="90dp"
+            android:text="NO" />
+
+    </RadioGroup>
+
+</GridLayout>
