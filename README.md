@@ -28,4 +28,3 @@ Thank you for visiting my Android Portfolio! I hope you enjoy exploring my proje
 ---
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
- pero añadiendo los ultimos 4 projectos anteriores pera mi web portafolio escrito en markdown
